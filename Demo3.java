@@ -8,24 +8,24 @@ public class Demo3 {
                     int z = 0;
                     while (z++ < 1) {
                         System.out.print("  ");
+                        x++;
                     }
-                    x += 1;
                 }
 
                 if (y == 3 && x == 3) {
                     int z = 0;
                     while (z++ < 3) {
                         System.out.print("  ");
+                        x++;
                     }
-                    x += 3;
                 }
 
                 if (y == 4 && x == 2) {
                     int z = 0;
                     while (z++ < 5) {
                         System.out.print("  ");
+                        x++;
                     }
-                    x += 5;
                 }
                 
                 System.out.print("+ ");
@@ -39,16 +39,16 @@ public class Demo3 {
                     int z = 0;
                     while (z++ < 3) {
                         System.out.print("  ");
+                        x++;
                     }
-                    x += 3;
                 }
                 
                 if (y - 1 == 6 && x == 4) {
                     int z = 0;
                     while (z++ < 1) {
                         System.out.print("  ");
+                        x++;
                     }
-                    x += 1;
                 }
                 System.out.print("+ ");
             }

@@ -13,24 +13,26 @@ public class Demo4 {
                     int a = 0;
                     while (a++ < 2){
                         System.out.print("/ ");
+                        x++;
                     }
                     int b = 0;
                     while (b++ < 2){
                         System.out.print("\\ ");
+                        x++;
                     }
-                    x += 4;
                 }
 
                 if (y == 4 && x == 2) {
                     int a = 0;
                     while (a++ < 2){
                         System.out.print("\\ ");
+                        x++;
                     }
                     int b = 0;
                     while (b++ < 2){
                         System.out.print("/ ");
+                        x++;
                     }
-                    x += 4;
                 }
                 if (y == 5 && x == 3) {
                     System.out.print("\\ / ");

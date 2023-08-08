@@ -8,15 +8,15 @@ public class Demo6 {
                     int z = 0;
                     while (z++ < 2) {
                         System.out.print("  ");
+                        y++;
                     }
-                    y += 2;
                 }
                 if (x == 1 && y == 4) {
                     int z = 0;
                     while (z++ < 2) {
                         System.out.print("  ");
+                        y++;
                     }
-                    y += 2;
                     break;
                 }
 
@@ -46,15 +46,15 @@ public class Demo6 {
                     int z = 0;
                     while (z++ < 2) {
                         System.out.print("  ");
+                        y++;
                     }
-                    y += 2;
                 }
                 if (x == 5 && y == 4) {
                     int z = 0;
                     while (z++ < 2) {
                         System.out.print("  ");
+                        y++;
                     }
-                    y += 2;
                     break;
                 }
                 System.out.print("+ ");
